@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+            <form>
+                <input type="text" placeholder="name" id="name">
+                <input type="text" placeholder="surname" id="surname">
+                <input type="number" placeholder="age" id="age">
+                <input type="text" placeholder="status" id="status">
+
+                <button id="submit-btn">Submit</button>
+            </form>
+        </div>
+        <button id="fixed-get-data">Get datas</button>
+    </main>
+
+    <footer>
+        <div class="container" id="table-foot">
+            <div class="head">
+                <div class="p-name">Name</div>
+                <div class="p-surname">Surname</div>
+                <div class="p-age">Age</div>
+                <div class="p-status">Status</div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

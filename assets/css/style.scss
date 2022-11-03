@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+main {
+    margin: 50px 0;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        form {
+            width: 40%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+}
+
+form{
+    input {
+        height: 50px;
+        width: 100%;
+        margin-top: 10px;
+        padding: 0 10px;
+    }
+    
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    button{
+        background-color: #3eac41;
+        font-size: 14px;
+        color: white;
+        padding: 13px 20px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all 0.2s;
+
+        &:hover {
+            background-color: #218a26;
+        }
+    }
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .container{
+        width: 80%;
+        display: flex;
+        justify-content: center; 
+        flex-wrap: wrap;
+
+        .head{
+            border: 2px solid black;
+
+            div{
+                border: 2px solid black;
+            }
+        }
+    }
+}
+
+
+.line, .head{
+    width: 100%;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.234);
+
+    div{
+        padding: 12px 15px;
+        border: 1px solid rgba(0, 0, 0, 0.234);
+    }
+
+    .p-name{
+        width: 35%;
+    }
+    .p-surname{
+        width: 35%;
+    }
+    .p-age{
+        width: 10%;
+    }
+    .p-status{
+        width: 20%;
+    }
+}
