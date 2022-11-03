@@ -22,6 +22,17 @@ main {
             justify-content: center;
         }
     }
+    #fixed-get-data{
+        padding: 12px 15px;
+        position: fixed;
+        top: 30%;
+        right: 10%;
+        background-color: rgb(76, 76, 162);
+        color: white;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+    }
 }
 
 form{

@@ -42,6 +42,18 @@ main .container form {
           justify-content: center;
 }
 
+main #fixed-get-data {
+  padding: 12px 15px;
+  position: fixed;
+  top: 30%;
+  right: 10%;
+  background-color: #4c4ca2;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
 form input {
   height: 50px;
   width: 100%;
